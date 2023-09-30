@@ -107,7 +107,6 @@ local function CitizenCheck() return true end
 
 CreateThread(function()
 	if not Config.Standalone then
-		local QBCore = exports['qb-core']:GetCoreObject()
 		local PlayerData = exports['qbr-core']:GetPlayerData()
 
 		ItemCount = function(item)
